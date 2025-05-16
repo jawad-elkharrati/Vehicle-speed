@@ -2,12 +2,6 @@
 
 Un système basé sur Python pour détecter, suivre et mesurer la vitesse des véhicules dans des séquences vidéo capturées par une caméra fixe.
 
-## Réalisé par :
-- **ELKHARRATI JAWAD**
-- **NUKUNU SHALOM JUNIOR**
-- **CHERIF HANAE**
-- **GUINI YOUSSEF**
-
 ## Vue d'Ensemble
 
 Ce système traite les séquences vidéo provenant d'une caméra fixe surplombant une route pour :
