@@ -22,15 +22,16 @@ Le système utilise des techniques de vision par ordinateur avec OpenCV pour une
 ## Structure du Projet
 vehicle_speed_detection/
 ├── modules/
-│ ├── object_detection.py # Détection des véhicules via soustraction de fond
-│ ├── vehicle_tracking.py # Suivi des véhicules à travers les images
-│ ├── distance_calculation.py # Conversion entre distances en pixels et réelles
-│ ├── speed_calculation.py # Calcul de la vitesse basé sur la distance et le temps
-│ ├── vehicle_counting.py # Comptage des véhicules uniques
-│ └── data_storage.py # Stockage des données de détection et de vitesse
-├── data/ # Répertoire pour les fichiers de données de sortie
-├── main.py # Application principale
-└── requirements.txt # Dépendances nécessaires
+│   ├── object_detection.py       # Détection des véhicules via soustraction de fond
+│   ├── vehicle_tracking.py       # Suivi des véhicules à travers les images
+│   ├── distance_calculation.py   # Conversion entre distances en pixels et réelles
+│   ├── speed_calculation.py      # Calcul de la vitesse basé sur la distance et le temps
+│   ├── vehicle_counting.py       # Comptage des véhicules uniques
+│   └── data_storage.py           # Stockage des données de détection et de vitesse
+├── data/                         # Répertoire pour les fichiers de données de sortie
+├── main.py                      # Application principale
+└── requirements.txt             # Dépendances nécessaires
+
 ## Installez les dépendances nécessaires :
     pip install -r requirements.txt
 ## Utilisation
